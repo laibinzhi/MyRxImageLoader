@@ -422,7 +422,7 @@ public class RequestCreator {
 需要注意的是我们请求数据成功之后需要执行保存数据到内存和本地的操作，我们可以在返回Observable<Image>之前执行doOnNext方法。这里的getImageFromMemory方法就不需要了。他属于最高一级。
 
 
-具体代码请看项目地址
+具体代码请看项目地址[项目地址](https://github.com/laibinzhi/MyRxImageLoader/)
 
 
 
