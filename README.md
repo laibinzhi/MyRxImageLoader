@@ -1,16 +1,8 @@
 # 基于RxJava2的轻量级图片缓存框架
 Android的图片缓存框架有很多，在**Universal-Image-Loader**断更之后，就经常使用**Glide**和**Picasso**。基于RxJava2的框架实现一个轻量级的图片缓存（三级缓存），加载图片的流程图如图所示:
-```
-graph TD
-    A[请求加载图片] -->|检查|B{缓存Memory是否有数据}
-    B -->|否检查| C{本地Disk是否有数据}
-    B -->|是| D[显示图片]
-    C -->|是| D
-    C -->|否| E[加载网络]
-    E -->D
-    E -->|缓存到内存Memory|B
-    E -->|缓存到本地Disk| C
-```
+
+![image](http://static.open-open.com/lib/uploadImg/20160930/20160930102005_713.png)
+
 
 ---
 结合图所得出的流程大概如下
