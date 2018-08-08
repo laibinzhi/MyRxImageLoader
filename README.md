@@ -1,6 +1,5 @@
-# 基于RxJava2的轻量级图片缓存框架
-Android的图片缓存框架有很多，在**Universal-Image-Loader**断更之后，就经常使用**Glide**和**Picasso**。基于RxJava2的框架实现一个轻量级的图片缓存（三级缓存），加载图片的流程图如图所示:
-
+# 序言
+Android的图片缓存框架有很多，在[Universal-Image-Loader](https://github.com/nostra13/Android-Universal-Image-Loader)断更之后，就经常使用[Glide](https://github.com/bumptech/glide)和[Picasso](https://github.com/square/picasso)。基于RxJava2的框架实现一个轻量级的图片缓存（三级缓存），加载图片的流程图如图所示:
 ![image](http://static.open-open.com/lib/uploadImg/20160930/20160930102005_713.png)
 
 
